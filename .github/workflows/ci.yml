@@ -1,13 +1,13 @@
 name: Deploy Slides
 
- on: push
+on: push
 
- permissions:
+permissions:
    contents: read
    pages: write
    id-token: write
 
- jobs:
+jobs:
    build:
      runs-on: ubuntu-latest
      steps:

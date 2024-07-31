@@ -14,9 +14,9 @@ jobs:
             - name: Install Python
             - uses: actions/setup_python@v5
             - with:
-                    python-version: "3.11"
+                python-version: "3.11"
             - run: python -m pip install .[test]
-            - name: Run tests
+            - name: Run tests 2
             - run: python -m pytest
 
 
